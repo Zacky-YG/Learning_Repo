@@ -1,0 +1,13 @@
+# Frameworks
+- Understanding different type of cyber security frameworks
+
+## Pyramid of Pain
+- Hash Values
+-- IP Address
+  - Fast Faux: A group of networks constantly changing their network details, making it diffcult to track and identify source.
+  References:
+  - https://www.akamai.com/blog/security/digging-deeper-an-in-depth-analysis-of-a-fast-flux-network
+  - https://unit42.paloaltonetworks.com/fast-flux-101/
+--- Domain Names
+----
+### IP Address
