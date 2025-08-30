@@ -3,11 +3,22 @@
 
 ## Pyramid of Pain
 - Hash Values
+  - Gain insight via hashes
+  - Identify signatures to attribute payloads and artefacts to an actor.
 -- IP Address
   - Fast Faux: A group of networks constantly changing their network details, making it diffcult to track and identify source.
   References:
   - https://www.akamai.com/blog/security/digging-deeper-an-in-depth-analysis-of-a-fast-flux-network
   - https://unit42.paloaltonetworks.com/fast-flux-101/
 --- Domain Names
-----
+  - Name mapped to IP addresses for identification.
+---- Host Artifacts
+----- Network Artifacts
+  - Attack using user-agent string, C2 info, or URI patterns followed by HTTP POST requests.
+------ Tools
+  - E.g. exe, dll, payloads etc.
+  - Fuzzy Hasing / Context Triggered Piecewise Hashes
+------ Tactics, Techniques & Procedures (TTPs)
+  - phishing attempts to persistence and data exfiltration.
+
 ### IP Address
