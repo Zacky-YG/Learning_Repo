@@ -21,4 +21,34 @@
 ------ Tactics, Techniques & Procedures (TTPs)
   - phishing attempts to persistence and data exfiltration.
 
-### IP Address
+# Cyber Key Chain
+
+## Open-Source Intelligence (OSINT)
+  - An attacker studies the victim's information before proceeding with an attack plan.
+## Weaponization
+  - macro, payloads etc.
+## Delivery
+  - Method of transmitting payload.
+## Exploitation
+  - Using resources such as emails and phishing links to obtain victim data.
+## Installation
+  - Creating a backdoor after a successful attempt in accessing victim's system.
+  - Timestomping: used to avoid detection by modifying create/access/change times.
+## Command & Control (C2)
+  - C&C or C2 Beaconing is a type of mailicious communication to establish a channel for control over victim's system.
+  - DNS Tunneling: victim system makes constant DNS request to the DNS server to maintain full control.
+## Actions on Objectives (Exfiltration)
+  - Attacker performs their desired actions on a system such as collecting credentials or sensitive data.
+### Extra Info
+  - https://unifiedkillchain.com/
+  - https://attack.mitre.org/
+
+# Unified Kill Chain
+  - Understand behaviors and methodlogiesof a cyber threat to establish strong cybersecurity def/posture.
+
+## What is "Kill Chain"
+  - 
+
+
+
+
