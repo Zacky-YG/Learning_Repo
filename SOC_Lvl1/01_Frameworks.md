@@ -57,8 +57,14 @@
   - Refer to "Paul Pols' Unified Kill Chain.png" for details on all 18 attack phases.
 ## Phase: In (Initial Foothold)
   - Refer to "THM - Initial Foothold.png" for chart.
-  1. Reconnaissance: 
-
+  1. Reconnaissance: Gather Info on target.
+  2. Weaponization: Setup infrastructure for attack.
+  3. Social Engineering: Used to manipulate victims into performing certain actions to aid attack.
+  4. Exploitation: Takes advantage of vulnerabilities.
+  5. Persistence: Maintain backdoor.
+  6. Defence Evasion: Understand blue team techniques and evade.
+  7. Command & Control: Execute what had been planned during Weaponization phase.
+  8. Pivoting: Reach other systems within a network through most vulnerable point.
 
 
 
