@@ -55,6 +55,9 @@
   - Created 2017, updated 2022.
   - meant to complement other defence framework.
   - Refer to "Paul Pols' Unified Kill Chain.png" for details on all 18 attack phases.
+## Phase: In (Initial Foothold)
+  - Refer to "THM - Initial Foothold.png" for chart.
+  1. Reconnaissance: 
 
 
 
