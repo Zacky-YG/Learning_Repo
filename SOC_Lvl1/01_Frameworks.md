@@ -66,6 +66,16 @@
   7. Command & Control: Execute what had been planned during Weaponization phase.
   8. Pivoting: Reach other systems within a network through most vulnerable point.
 
+## Phase: Through (Network Propagation)
+  - Refer to "THM - Through.png" for chart.
+  1. Pivoting: Staging site and tunnel between a victim's network. A distribution point for backdoor.
+  2. Discovery: Uncover victim's network and other information such as active user accounts.
+  3. Privilege Escalation: Attempt to gain more information via privleged access.
+  4. Execution: Deploy malicious code using the pivot system as their host such as remote trojans, C2 scripts or schedule tasks to maintain persistence.
+  5. Credential Access: Steals credentials to use it as a mask for more attacks.
+  6. Lateral Movement: Move to another victim's system once done with current system.
+  
+
 
 
 
