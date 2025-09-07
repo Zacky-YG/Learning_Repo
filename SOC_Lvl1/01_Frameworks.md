@@ -74,8 +74,22 @@
   4. Execution: Deploy malicious code using the pivot system as their host such as remote trojans, C2 scripts or schedule tasks to maintain persistence.
   5. Credential Access: Steals credentials to use it as a mask for more attacks.
   6. Lateral Movement: Move to another victim's system once done with current system.
-  
 
+## Phase: Out (Action on Objectives)
+  1. Collection: Gather all valuable data of interest.
+  2. Exfiltration: Attempts stealing valuable data via Command & Control (C2) channel and tunnel deployed in the earlier phases.
+  3. Impact: As data lose its integrity, attacker will manipulate assets to cause business distruption. For example ransomware, denial of service (DoS) attacks.
+  4. Objectives: With power and access to the system and network, attacker can choose to perform other goals which may include releasing confidential data to the public.
+
+# Diamond Model
+  - 4 Core Features
+      - Adversary
+      - Infrastructure
+      - Capability
+      - Victim
+  - 2 Addon Features
+      - Social,
+      - Political and Technology
 
 
 
