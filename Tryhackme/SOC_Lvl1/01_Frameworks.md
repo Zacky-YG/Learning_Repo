@@ -1,6 +1,5 @@
 # Frameworks
 - Understanding different type of cyber security frameworks
-
 ## Pyramid of Pain
 - Hash Values
   - Gain insight via hashes
@@ -22,7 +21,6 @@
   - phishing attempts to persistence and data exfiltration.
 
 # Cyber Key Chain
-
 ## Open-Source Intelligence (OSINT)
   - An attacker studies the victim's information before proceeding with an attack plan.
 ## Weaponization
@@ -45,7 +43,6 @@
 
 # Unified Kill Chain
   - Understand behaviors and methodlogiesof a cyber threat to establish strong cybersecurity def/posture.
-
 ## What is "Kill Chain"
   - Methodlogy/path attackers use to approach and intrude a target.
 ## What is "Threat Modelling"
@@ -65,7 +62,6 @@
   6. Defence Evasion: Understand blue team techniques and evade.
   7. Command & Control: Execute what had been planned during Weaponization phase.
   8. Pivoting: Reach other systems within a network through most vulnerable point.
-
 ## Phase: Through (Network Propagation)
   - Refer to "THM - Through.png" for chart.
   1. Pivoting: Staging site and tunnel between a victim's network. A distribution point for backdoor.
@@ -74,7 +70,6 @@
   4. Execution: Deploy malicious code using the pivot system as their host such as remote trojans, C2 scripts or schedule tasks to maintain persistence.
   5. Credential Access: Steals credentials to use it as a mask for more attacks.
   6. Lateral Movement: Move to another victim's system once done with current system.
-
 ## Phase: Out (Action on Objectives)
   1. Collection: Gather all valuable data of interest.
   2. Exfiltration: Attempts stealing valuable data via Command & Control (C2) channel and tunnel deployed in the earlier phases.
@@ -90,6 +85,43 @@
   - 2 Addon Features
       - Social,
       - Political and Technology
+## Adversary
+- aka attacker
+## Victim
+- Victim Personae: The target.
+## Infrastructure
+- Type 1: Controlled by adversary
+- Type 2: Intermediary, infrastructure may not be aware it is a used for mailicious actions. (e.g. compromised email accounts)
+## Event Meta Features (6 possible features)
+1. Timestamp
+2. Phase
+3. Result
+4. Direction
+5. Methodology: Descrribe general classification of intrusion.
+6. Resources: external resources used for attack to succeed.
+  - Software
+  - Knowledge
+  - Information
+  - Hardware
+  - Funds
+  - Facilities
+## Social-Political Component
+- The intent and needs of the adversary
+
+# MITRE
+```
+    ATT&CK ®  ( A dversarial  T actics,  T echniques,  and   C ommon  K nowledge) Framework
+    CAR ( C yber  A nalytics  R epository) Knowledge Base
+    ENGAGE  (sorry, not a fancy acronym)
+    D3FEND ( D etection,  D enial, and  D isruption  F ramework  E mpowering  N etwork  D efense)
+    AEP ( A TT&CK  E mulation  P lans)
+```
+## Basic Terminology
+- Advanced Persistent Threat (APT): A team/group who engages in long-term attack against organizations and/or countries.
+- Tactics, Techniques, and Procedures (TTP)
+  - Tactic: adversary's goal
+  - Technique: how adversary achieve goals
+  - Procedure: how the techniques are executed.
 
 
 
