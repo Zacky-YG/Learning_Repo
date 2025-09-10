@@ -3,7 +3,7 @@ Documenting IT and cybersecurity projects.
 
 ## Learning In Progress
 - Setup SIEM VM as Homelab
-- Going through letsdefend
+- Completing Letsdefend SOC beginner path
 - Completing TryHackMe's SOC Level 1 path
 - Studying for Sec+ (Test in Oct)
 
