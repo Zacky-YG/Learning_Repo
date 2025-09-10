@@ -1,12 +1,14 @@
 # CS_Repo
 Documenting IT and cybersecurity projects.
 
-## Skills in Progress
-- SIEM Setup & log analysis
-- Basic incident detection & report
+## Learning In Progress
+- Setup SIEM VM as Homelab
+- Going through letsdefend
 - Completing TryHackMe's SOC Level 1 path
-- Vulnerability Scanning
-- Intro to compliance frameworks (NIST, MAS TRM, ISO 27001)
+- Studying for Sec+ (Test in Oct)
+
+## Want to learn list
+- Relearn Python (Perhaps tryhackme or some other sites)
 
 ## License
 This is licensed under the **MIT License**.
