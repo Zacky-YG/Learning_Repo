@@ -129,6 +129,20 @@
 - Event Query Language (EQL): Used to query, parse, and organize Sysmon even data.
   - Refernce: https://eql.readthedocs.io/en/latest/
 - Bro/Zeek ATT&CK-based Analytics and Reporting (BZAR): Used to detect ATT&CK-based adversarial activity; A collection of Zeek (Bro) scripts looking primarily at SMB and RPC traffic.
+## MITRE Engage
+- A <b>framework</b> for planning and discussing adversary engagment operations.
+- An adversarary Engagment Approach done via...
+  - Cyber Denial: Prevent adversary's ability to conduct their operations.
+  - Cyber Deception: Plant artifacts to mislead the adversary.
+- Engage has 5 categories in its matrix.
+- ![Engage Matrix Image goes here](https://raw.githubusercontent.com/Zacky-YG/Learning_Repo/refs/heads/main/Tryhackme/SOC_Lvl1/THM%20-%20engage-matrix.png)
+  - Prepare: Set of desired input.
+  - Expose: Expose Adversaries when they trigger the deployed deception activities.
+  - Affect: Cause negative impact to adversaries.
+  - Elicit: Obtain information about adversary by observing and learn more about their TTP.
+  - Understand: Output the outcomes of the operational actions (input)
+    - Refernce: https://engage.mitre.org/wp-content/uploads/2022/04/EngageHandbook-v1.0.pdf
+    - 
 
 
 
