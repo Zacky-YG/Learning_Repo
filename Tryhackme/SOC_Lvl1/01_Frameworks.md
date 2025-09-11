@@ -122,6 +122,13 @@
   - Tactic: adversary's goal
   - Technique: how adversary achieve goals
   - Procedure: how the techniques are executed.
+- Tools available: https://attack.mitre.org/resources/attack-data-and-tools/
+## Cyber Analytics Repository (CAR)
+- Knowlege base of analytics by MITRE.
+- Used as a supplement for ATT&CK framework which is more in-depth in terms of analytics.
+- Event Query Language (EQL): Used to query, parse, and organize Sysmon even data.
+  - Refernce: https://eql.readthedocs.io/en/latest/
+- Bro/Zeek ATT&CK-based Analytics and Reporting (BZAR): Used to detect ATT&CK-based adversarial activity; A collection of Zeek (Bro) scripts looking primarily at SMB and RPC traffic.
 
 
 
