@@ -31,4 +31,6 @@
 - Saves time by automating common workflows: hash query, IP address reputation control etc.
 - It is centralised solution.
 ## Threat Intelligence Feed
-- 
+- Info on malware provided by 3rd-party.
+  - Common sites: [Virtu](https://www.virustotal.com/) | [Talos Intelligence](https://talosintelligence.com/)
+  - 
