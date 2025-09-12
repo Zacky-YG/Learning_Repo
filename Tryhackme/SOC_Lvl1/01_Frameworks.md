@@ -142,7 +142,14 @@
   - Elicit: Obtain information about adversary by observing and learn more about their TTP.
   - Understand: Output the outcomes of the operational actions (input)
     - Refernce: https://engage.mitre.org/wp-content/uploads/2022/04/EngageHandbook-v1.0.pdf
-    - 
+## Detection, Denial, and Disruption Framework Empowering Network Defense (D3FEND)
+- Knowledge graph of cybersecurity countermeasures
+- Still in beta.
+## Center of Threat-Informed Defense (CTID)
+- Formed by MITRE
+- Conducts research on cyber threats and their TTPs
+### ATT&CK Emulations Plans
+- free public library making adversary emulation plans for blue and red teams.
 
 
 
