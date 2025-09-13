@@ -33,4 +33,12 @@
 ## Threat Intelligence Feed
 - Info on malware provided by 3rd-party.
   - Common sites: [Virtu](https://www.virustotal.com/) | [Talos Intelligence](https://talosintelligence.com/)
-  - 
+## Common Mistake made by SOC Analysts
+- Over-reliance on VirtusTotal Results
+- Hasty Analysis of Malware in a Sandbox
+- Inadequate Log Analysis
+- Overlooking VirusTotal Dates
+## Questions
+- What are the different steps of the lifecycle for the NIST, of an incident?
+  - Preparation, Detection/Analysis, Containment / Eradicationand Recovery, Post-Event Activity
+-
