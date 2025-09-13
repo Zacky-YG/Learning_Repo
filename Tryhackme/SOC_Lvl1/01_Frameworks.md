@@ -145,11 +145,13 @@
 ## Detection, Denial, and Disruption Framework Empowering Network Defense (D3FEND)
 - Knowledge graph of cybersecurity countermeasures
 - Still in beta.
-## Center of Threat-Informed Defense (CTID)
+## ATT&CK Emulations Plans
+- free public library making adversary emulation plans for blue and red teams.
+### Center of Threat-Informed Defense (CTID)
 - Formed by MITRE
 - Conducts research on cyber threats and their TTPs
-### ATT&CK Emulations Plans
-- free public library making adversary emulation plans for blue and red teams.
-
+## ATT&CK and Threat Intelligence
+- aka Threat Intelligence (TI) / Cyber Threat Intelligence (CTI): Information, or TTPs, attributes of the adversary.
+- Online available sources: CrowdStrike
 
 
