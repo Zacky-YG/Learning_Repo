@@ -1,4 +1,8 @@
-# Introduction
+# Table of Contents
+- [Section 1: Introduction](#sec-1-introduction)
+- [Section 2: Cyber Kill Chain](#sec-2-cyber-kill-chain)
+
+# Sec 1 Introduction
 ## Types of SOC Models
 - In-house
 - Virtual
@@ -41,4 +45,10 @@
 ## Questions
 - What are the different steps of the lifecycle for the NIST, of an incident?
   - Preparation, Detection/Analysis, Containment / Eradicationand Recovery, Post-Event Activity
--
+
+# Sec 2: Cyber Kill Chain
+- Framework by Lockheed Martin (Organization)
+- Used to understand each phase and actions taken by adversary.
+
+
+
