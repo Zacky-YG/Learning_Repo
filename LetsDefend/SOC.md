@@ -49,6 +49,43 @@
 # Sec 2: Cyber Kill Chain
 - Framework by Lockheed Martin (Organization)
 - Used to understand each phase and actions taken by adversary.
+## Steps
+1. Reconnaissance
+   - 2 techniques
+     - Passive: Collect info without engaging the target system. (e.g. Web archives)
+     - Active: Collect info by engaging with target system directly. (e.g. submitting a request to web server to get a response.)
+2. Weaponization
+   - Use info from recon to create tools for attack.
+3. Delivery
+   - Executes the attack via techniques/tools.
+4. Exploitation
+   - Ensure tool/technique used is implemented smoothly in the target system.
+5. Installation
+    - Main persistence via techniques.
+6. Command & Control (C2)
+   - Adversary set-up C2 server to deliver commands to the target system.
+7. Actions on Objectives
+   - Through C2 server, perform multiple actions for their goals.
+
+## Sec 3: MITRE ATT&CK
+- ATT&CK stands for Adversarial Tactics, Techniques, and Common Knowledge
+- A knowledge database.
+- Consist of 3 Matrices
+  1. Enterprise: Understand cyber attacks on large org.
+     - 7 Sub-matrices
+       - PRE
+       - Windows
+       - macOS
+       - Linux
+       - Cloud
+       - Network
+       - Containers
+  2. Mobile: mobile devices, generally contains less info.
+     - 2 Sub-matrices
+       - Android
+       - iOS
+  4. Industrial Control Systems (ICS): cyber security of devices in the industrial control systems.
+- 
 
 
 
