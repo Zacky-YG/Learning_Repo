@@ -161,5 +161,22 @@
 # Eviction
 
 # Section 2: Cyber Threat Intelligence
+- 3 Essentials Qs
+  1. Who, or what is on the other end of this alert indcator
+  2. What was their behavior in the past?
+  3. How does the org respond, and what should i do about it right now?
+- Information Security can be split to 3 points
+  - Data: Capture artefact.
+  - Info: Record attributes.
+  - Intelligence: Escalate/surpress.
+- 3 types of labels
+  1. Indicator of Compromise (IOC): Breach evidence.
+  2. Indicator of Attack (IOA): Mailcious action.
+  3. Tactics, Techniques, and Procedures (TTP): detail methodologies express in MITRE ATT&CK IDs and descriptions
+- Thereat Intelligence Classification
+  - Strategic: Looks into threat landscape (e.g. randomware trends)
+  - Tactical: Behaviors analysis via TTP (e.g. Advisory notes)
+  - Operational: Intent and motives
+  - Technical: indicators and artefacts such as IP address and hashes related to attack.
 
 
