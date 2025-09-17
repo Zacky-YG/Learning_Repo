@@ -1,6 +1,7 @@
 # Table of Contents
 - [Section 1: Introduction](#sec-1-introduction)
 - [Section 2: Cyber Kill Chain](#sec-2-cyber-kill-chain)
+- [Section 3: Phishing Email Analysis](#sec-3-Phishing-Email-Analysis)
 
 # Sec 1 Introduction
 ## Types of SOC Models
@@ -85,7 +86,30 @@
        - Android
        - iOS
   4. Industrial Control Systems (ICS): cyber security of devices in the industrial control systems.
-- 
+## Mitgations
+- Measures and actiosn that can be taken in response to techniques.
 
+# Sec 3: Phishing Email Analysis
+- Falls under delivery
+- Attackers can perform spoofing to trick users.
+- Prevent spoofing protocols (Not mandatory)
+  - SPF: aka Sender Policy Framework
+  - DKIM: DomainKeys Identified Mail (DKIM)
+  - DMARC:
+- Ways to determine if mail is spoof
+  - Check SMTP address with domain's SPF, DKIM, DMARC, and MX records (records can be extracted using Mxtoolbox).
+- Reading Email Header
+  - Definition: header contains info about sender, receipent, and date. It also contains other components such as 'Return-Path'.
+  - Notable components
+    - From
+    - To
+    - Date
+    - Subject
+    - Return-Path: aka Repy-To. Upon replying, it will send to the address indicated in this field.
+    - Domain Key and DKIM Signatures: email signatures for authentication.
+    - Message-ID: Unique Email ID
+    - MIME-Version: aka Multipurpose Internet Mail Extensions; a coding standard. non-text contents converts into text and sent via SMTP (Simple Mail Transfer Protocol).
+    - Received: A list of email servers which passed through before arriving reipent's inbox.
+    - X-Spam Status: Spam score of email message.
 
 
