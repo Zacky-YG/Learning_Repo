@@ -179,4 +179,6 @@
   - Operational: Intent and motives
   - Technical: indicators and artefacts such as IP address and hashes related to attack.
 
-
+#Threat Intelligence Tools
+1. UrlScan.io - Used to scan and analyse websites.
+2. Abuse.ch - Research project to identify and track malware and botnets.
