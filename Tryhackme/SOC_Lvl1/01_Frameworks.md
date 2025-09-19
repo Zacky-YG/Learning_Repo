@@ -182,3 +182,7 @@
 #Threat Intelligence Tools
 1. UrlScan.io - Used to scan and analyse websites.
 2. Abuse.ch - Research project to identify and track malware and botnets.
+   - Platforms
+     - Malware Bazaar
+
+
