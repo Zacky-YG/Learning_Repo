@@ -2,6 +2,7 @@
 - [Section 1: Introduction](#sec-1-introduction)
 - [Section 2: Cyber Kill Chain](#sec-2-cyber-kill-chain)
 - [Section 3: Phishing Email Analysis](#sec-3-Phishing-Email-Analysis)
+- [Section 4: Web Attacks](#sec-4-Web-Attacks)
 
 # Sec 1 Introduction
 ## Types of SOC Models
@@ -111,5 +112,25 @@
     - MIME-Version: aka Multipurpose Internet Mail Extensions; a coding standard. non-text contents converts into text and sent via SMTP (Simple Mail Transfer Protocol).
     - Received: A list of email servers which passed through before arriving reipent's inbox.
     - X-Spam Status: Spam score of email message.
+
+# Sec 4: Web Attacks
+## Types of attacks
+- SQL Injection
+- Cross Site Scripting
+- Command Injection
+- IDOR
+- RFI & LFI
+- File Upload (Web Shell)
+## Open Worldwide Application Security Project (OWASP)
+- Non-profit foundation dedicated to improving software security
+- Every few years, OWASP publish top 10 web application vulnerabilities that pose the most critical security risk.
+  - aka OWASP Top 10.
+  - Useful resources in OWASP: https://owasp.org/projects/
+## How Web Applications
+- HTTP is used for web apps to communicate.
+- Below is how HTTP protcol works
+- ![HTTP Protocol Image goes here](https://raw.githubusercontent.com/Zacky-YG/Learning_Repo/refs/heads/main/Tryhackme/SOC%-%HTTP-Protocol-TCP-IP-Model-OSI-Model.png)
+
+
 
 
