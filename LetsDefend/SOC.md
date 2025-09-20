@@ -130,6 +130,12 @@
 - HTTP is used for web apps to communicate.
 - Below is how HTTP protcol works
 - ![HTTP Protocol Image goes here](https://raw.githubusercontent.com/Zacky-YG/Learning_Repo/refs/heads/main/Tryhackme/SOC%-%HTTP-Protocol-TCP-IP-Model-OSI-Model.png)
+- HTTP Status Line Summary
+  - 100-199: Informational responses
+  - 200-299: Successful responses
+  - 300-399: Redirection messages
+  - 400-499: Client error responses
+  - 500-599: Server error responses
 
 
 
