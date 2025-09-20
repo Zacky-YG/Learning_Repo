@@ -183,6 +183,12 @@
 1. UrlScan.io - Used to scan and analyse websites.
 2. Abuse.ch - Research project to identify and track malware and botnets.
    - Platforms
-     - Malware Bazaar
+     - Malware Bazaar: Shares malware samples.
+     - Feodo Tracker: Tracks botnet command C2.
+     - SSL Blacklist: Collect and provide a block for mailcious SSL certificates
+     - URL Haus: Resource for sharing malware distirbution sites.
+     - Threat Fox: Resource for sharing IoC.
+## PhishTool
+- A email analysis platform to analysis using baked-in Open Source Intelligence (OSINT), allowing the tool to classify and report accordingly.
 
 
