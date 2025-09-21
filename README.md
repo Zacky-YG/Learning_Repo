@@ -9,7 +9,7 @@ Documenting IT and cybersecurity projects.
 
 ## Want to learn list
 - Relearn Python (Perhaps tryhackme or some other sites) [Target Date: Once finished SOC beginner path on either platforms]
-- Setup Security Onion.
+- Relearning the fundamentals of networking.
 
 ## License
 This is licensed under the **MIT License**.
