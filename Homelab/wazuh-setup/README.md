@@ -1,4 +1,4 @@
-#Wazuh Setup
+# Wazuh Setup
 
 Docmenting my installation and configs.
 
