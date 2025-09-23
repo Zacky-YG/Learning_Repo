@@ -3,6 +3,7 @@
 - [Section 2: Cyber Kill Chain](#sec-2-cyber-kill-chain)
 - [Section 3: Phishing Email Analysis](#sec-3-Phishing-Email-Analysis)
 - [Section 4: Web Attacks](#sec-4-Web-Attacks)
+- [Section 5: Yara](#sec-5-Yara)
 
 # Sec 1 Introduction
 ## Types of SOC Models
@@ -137,6 +138,7 @@
   - 400-499: Client error responses
   - 500-599: Server error responses
 
+# Sec 5: Yara
 
 
 
