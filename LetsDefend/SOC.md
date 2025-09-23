@@ -1,9 +1,9 @@
 # Table of Contents
 - [Section 1: Introduction](#sec-1-introduction)
 - [Section 2: Cyber Kill Chain](#sec-2-cyber-kill-chain)
-- [Section 3: Phishing Email Analysis](#sec-3-Phishing-Email-Analysis)
-- [Section 4: Web Attacks](#sec-4-Web-Attacks)
-- [Section 5: Yara](#sec-5-Yara)
+- [Section 3: MITRE ATT&CK Framework](#sec-3-MITRE-ATT&CK-Framework)
+- [Section 4: Phishing Email Analysis](#sec-4-Phishing-Email-Analysis)
+- [Section 5: Detecting Web Attacks](#sec-5-Detecting-Web-Attacks)
 
 # Sec 1 Introduction
 ## Types of SOC Models
@@ -70,7 +70,7 @@
 7. Actions on Objectives
    - Through C2 server, perform multiple actions for their goals.
 
-## Sec 3: MITRE ATT&CK
+## Sec 3: MITRE ATT&CK Framework
 - ATT&CK stands for Adversarial Tactics, Techniques, and Common Knowledge
 - A knowledge database.
 - Consist of 3 Matrices
@@ -91,7 +91,7 @@
 ## Mitgations
 - Measures and actiosn that can be taken in response to techniques.
 
-# Sec 3: Phishing Email Analysis
+# Sec 4: Phishing Email Analysis
 - Falls under delivery
 - Attackers can perform spoofing to trick users.
 - Prevent spoofing protocols (Not mandatory)
@@ -114,7 +114,7 @@
     - Received: A list of email servers which passed through before arriving reipent's inbox.
     - X-Spam Status: Spam score of email message.
 
-# Sec 4: Web Attacks
+# Sec 5: Detecting Web Attacks
 ## Types of attacks
 - SQL Injection
 - Cross Site Scripting
@@ -137,8 +137,12 @@
   - 300-399: Redirection messages
   - 400-499: Client error responses
   - 500-599: Server error responses
-
-# Sec 5: Yara
+## Detecting SQL Injection Attacks
+- An attack vector in which web application directly includes unsanitized user provided data in SQL queries; a vulnerability which SQL injection attack make use.
+- Types of SQL Injections
+  - Classic/In-band: SQL query sent and responed to on the same channel.
+  - Blind/Inferential: SQL queries receive a response which cannot be seen.
+  - Out of Band: SQL queries received through another channel.
 
 
 
