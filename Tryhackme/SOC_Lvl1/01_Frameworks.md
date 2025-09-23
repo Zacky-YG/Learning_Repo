@@ -1,6 +1,9 @@
 # Table of Contents
 - [Section 1: Cyber Defence Frameworks](#Section-1-Cyber-Defence-Frameworks)
 - [Section 2: Cyber Threat Intelligence](#Section-2-Cyber-Threat-Intelligence)
+- [Section 3: Cyber Kill Chain](#Section-3-Cyber-Kill-Chain)
+- [Section 4: Unified Kill Chain](#Section-4-Unified-Kill-Chain)
+- [Section 5: Diamond Model](#Section-5-Diamond-Model)
 
 # Section 1: Cyber Defence Frameworks
 - Understanding different type of cyber security frameworks
@@ -24,7 +27,7 @@
 ------ Tactics, Techniques & Procedures (TTPs)
   - phishing attempts to persistence and data exfiltration.
 
-# Cyber Key Chain
+# Cyber Kill Chain
 ## Open-Source Intelligence (OSINT)
   - An attacker studies the victim's information before proceeding with an attack plan.
 ## Weaponization
@@ -179,7 +182,7 @@
   - Operational: Intent and motives
   - Technical: indicators and artefacts such as IP address and hashes related to attack.
 
-#Threat Intelligence Tools
+# Threat Intelligence Tools
 1. UrlScan.io - Used to scan and analyse websites.
 2. Abuse.ch - Research project to identify and track malware and botnets.
    - Platforms
@@ -190,5 +193,7 @@
      - Threat Fox: Resource for sharing IoC.
 ## PhishTool
 - A email analysis platform to analysis using baked-in Open Source Intelligence (OSINT), allowing the tool to classify and report accordingly.
+
+# Yara
 
 
