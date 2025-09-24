@@ -196,7 +196,7 @@
   - Python Portable Executable (PE: Creates Yara rules from various sections and elements of Windows PE Structure.
 - Github resources with Yara rules
   - LOKI: Opens-source IOC scanner by Florian Roth
-    - 
+    - Valhalla: an online tool which hosts yara rules by Florian Roth.
   - THOR: Latest IOC and YARA scanner by Florian Roth
   - FENRIR: A bash script created to address issues from LOKI and THOR by Florian Roth.
   - YAYA: A linux tool used to manage multiple YARA rule repo.
