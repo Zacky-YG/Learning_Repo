@@ -143,6 +143,12 @@
   - Classic/In-band: SQL query sent and responed to on the same channel.
   - Blind/Inferential: SQL queries receive a response which cannot be seen.
   - Out of Band: SQL queries received through another channel.
+ ## Detecting Cross Site Scripting (XSS) Attacks
+ - XSS attacks is where mailcious code are executed via legitimate applications.
+ - 3 types of XSS
+   - Reflected XSS (Non-persistent): XSS payload must be present in the request; Most common type of XSS.
+   - Stored XSS (Persistent): XSS payload is permanently uploaded in the web app; Most dangerous type of XSS.
+   - DOM based XSS: XSS payload is executed upon modification in the DOM "environment" in the victim's browser; it runs the client-side code in an "unexpected" manner. (OWASP)
 
 
 
