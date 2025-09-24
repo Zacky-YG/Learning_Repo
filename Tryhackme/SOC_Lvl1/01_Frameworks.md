@@ -26,40 +26,38 @@
   - Fuzzy Hasing / Context Triggered Piecewise Hashes
 ------ Tactics, Techniques & Procedures (TTPs)
   - phishing attempts to persistence and data exfiltration.
-
-# Cyber Kill Chain
+## Cyber Kill Chain
 ## Open-Source Intelligence (OSINT)
   - An attacker studies the victim's information before proceeding with an attack plan.
-## Weaponization
+### Weaponization
   - macro, payloads etc.
-## Delivery
+### Delivery
   - Method of transmitting payload.
-## Exploitation
+### Exploitation
   - Using resources such as emails and phishing links to obtain victim data.
-## Installation
+### Installation
   - Creating a backdoor after a successful attempt in accessing victim's system.
   - Timestomping: used to avoid detection by modifying create/access/change times.
-## Command & Control (C2)
+### Command & Control (C2)
   - C&C or C2 Beaconing is a type of mailicious communication to establish a channel for control over victim's system.
   - DNS Tunneling: victim system makes constant DNS request to the DNS server to maintain full control.
-## Actions on Objectives (Exfiltration)
+### Actions on Objectives (Exfiltration)
   - Attacker performs their desired actions on a system such as collecting credentials or sensitive data.
-### Extra Info
+#### Extra Info
   - https://unifiedkillchain.com/
   - https://attack.mitre.org/
-
-# Unified Kill Chain
+## Unified Kill Chain
   - Understand behaviors and methodlogiesof a cyber threat to establish strong cybersecurity def/posture.
-## What is "Kill Chain"
+### What is "Kill Chain"
   - Methodlogy/path attackers use to approach and intrude a target.
-## What is "Threat Modelling"
+### What is "Threat Modelling"
   - Series of steps to improve system security.
-## What is "Unified Kill Chain"
+### What is "Unified Kill Chain"
   - 18 Attack Phases
   - Created 2017, updated 2022.
   - meant to complement other defence framework.
   - Refer to "Paul Pols' Unified Kill Chain.png" for details on all 18 attack phases.
-## Phase: In (Initial Foothold)
+### Phase: In (Initial Foothold)
   - Refer to "THM - Initial Foothold.png" for chart.
   1. Reconnaissance: Gather Info on target.
   2. Weaponization: Setup infrastructure for attack.
@@ -69,7 +67,7 @@
   6. Defence Evasion: Understand blue team techniques and evade.
   7. Command & Control: Execute what had been planned during Weaponization phase.
   8. Pivoting: Reach other systems within a network through most vulnerable point.
-## Phase: Through (Network Propagation)
+### Phase: Through (Network Propagation)
   - Refer to "THM - Through.png" for chart.
   1. Pivoting: Staging site and tunnel between a victim's network. A distribution point for backdoor.
   2. Discovery: Uncover victim's network and other information such as active user accounts.
@@ -77,13 +75,12 @@
   4. Execution: Deploy malicious code using the pivot system as their host such as remote trojans, C2 scripts or schedule tasks to maintain persistence.
   5. Credential Access: Steals credentials to use it as a mask for more attacks.
   6. Lateral Movement: Move to another victim's system once done with current system.
-## Phase: Out (Action on Objectives)
+### Phase: Out (Action on Objectives)
   1. Collection: Gather all valuable data of interest.
   2. Exfiltration: Attempts stealing valuable data via Command & Control (C2) channel and tunnel deployed in the earlier phases.
   3. Impact: As data lose its integrity, attacker will manipulate assets to cause business distruption. For example ransomware, denial of service (DoS) attacks.
   4. Objectives: With power and access to the system and network, attacker can choose to perform other goals which may include releasing confidential data to the public.
-
-# Diamond Model
+## Diamond Model
   - 4 Core Features
       - Adversary
       - Infrastructure
@@ -92,14 +89,14 @@
   - 2 Addon Features
       - Social,
       - Political and Technology
-## Adversary
+### Adversary
 - aka attacker
-## Victim
+### Victim
 - Victim Personae: The target.
-## Infrastructure
+### Infrastructure
 - Type 1: Controlled by adversary
 - Type 2: Intermediary, infrastructure may not be aware it is a used for mailicious actions. (e.g. compromised email accounts)
-## Event Meta Features (6 possible features)
+### Event Meta Features (6 possible features)
 1. Timestamp
 2. Phase
 3. Result
@@ -112,10 +109,9 @@
   - Hardware
   - Funds
   - Facilities
-## Social-Political Component
+### Social-Political Component
 - The intent and needs of the adversary
-
-# MITRE
+## MITRE
 ```
     ATT&CK ®  ( A dversarial  T actics,  T echniques,  and   C ommon  K nowledge) Framework
     CAR ( C yber  A nalytics  R epository) Knowledge Base
@@ -123,20 +119,20 @@
     D3FEND ( D etection,  D enial, and  D isruption  F ramework  E mpowering  N etwork  D efense)
     AEP ( A TT&CK  E mulation  P lans)
 ```
-## Basic Terminology
+### Basic Terminology
 - Advanced Persistent Threat (APT): A team/group who engages in long-term attack against organizations and/or countries.
 - Tactics, Techniques, and Procedures (TTP)
   - Tactic: adversary's goal
   - Technique: how adversary achieve goals
   - Procedure: how the techniques are executed.
 - Tools available: https://attack.mitre.org/resources/attack-data-and-tools/
-## Cyber Analytics Repository (CAR)
+### Cyber Analytics Repository (CAR)
 - Knowlege base of analytics by MITRE.
 - Used as a supplement for ATT&CK framework which is more in-depth in terms of analytics.
 - Event Query Language (EQL): Used to query, parse, and organize Sysmon even data.
   - Refernce: https://eql.readthedocs.io/en/latest/
 - Bro/Zeek ATT&CK-based Analytics and Reporting (BZAR): Used to detect ATT&CK-based adversarial activity; A collection of Zeek (Bro) scripts looking primarily at SMB and RPC traffic.
-## MITRE Engage
+### MITRE Engage
 - A <b>framework</b> for planning and discussing adversary engagment operations.
 - An adversarary Engagment Approach done via...
   - Cyber Denial: Prevent adversary's ability to conduct their operations.
@@ -149,19 +145,18 @@
   - Elicit: Obtain information about adversary by observing and learn more about their TTP.
   - Understand: Output the outcomes of the operational actions (input)
     - Refernce: https://engage.mitre.org/wp-content/uploads/2022/04/EngageHandbook-v1.0.pdf
-## Detection, Denial, and Disruption Framework Empowering Network Defense (D3FEND)
+### Detection, Denial, and Disruption Framework Empowering Network Defense (D3FEND)
 - Knowledge graph of cybersecurity countermeasures
 - Still in beta.
-## ATT&CK Emulations Plans
+### ATT&CK Emulations Plans
 - free public library making adversary emulation plans for blue and red teams.
-### Center of Threat-Informed Defense (CTID)
+#### Center of Threat-Informed Defense (CTID)
 - Formed by MITRE
 - Conducts research on cyber threats and their TTPs
-## ATT&CK and Threat Intelligence
+### ATT&CK and Threat Intelligence
 - aka Threat Intelligence (TI) / Cyber Threat Intelligence (CTI): Information, or TTPs, attributes of the adversary.
 - Online available sources: CrowdStrike
-
-# Eviction
+## Eviction
 
 # Section 2: Cyber Threat Intelligence
 - 3 Essentials Qs
@@ -181,8 +176,7 @@
   - Tactical: Behaviors analysis via TTP (e.g. Advisory notes)
   - Operational: Intent and motives
   - Technical: indicators and artefacts such as IP address and hashes related to attack.
-
-# Threat Intelligence Tools
+## Threat Intelligence Tools
 1. UrlScan.io - Used to scan and analyse websites.
 2. Abuse.ch - Research project to identify and track malware and botnets.
    - Platforms
@@ -191,9 +185,19 @@
      - SSL Blacklist: Collect and provide a block for mailcious SSL certificates
      - URL Haus: Resource for sharing malware distirbution sites.
      - Threat Fox: Resource for sharing IoC.
-## PhishTool
+### PhishTool
 - A email analysis platform to analysis using baked-in Open Source Intelligence (OSINT), allowing the tool to classify and report accordingly.
-
-# Yara
-
-
+## Yara
+- A tool used to identify info based on patterns (e.g. hexadecimal or strings in a file)
+- Yara rule references: https://yara.readthedocs.io/en/stable/writingrules.html
+- Security Infographics: https://medium.com/malware-buddy/security-infographics-9c4d3bd891ef#18dd
+- Integrating with other libraries/frameworks such as Cuckoo Sandbox or Python's PE Module to leverage Yara rules' efficiency.
+  - Cuckoo Sandbox: an automated malware analysis environment which generates Yara rules based on behaviors discovered from Cuckoo Sandbox.
+  - Python Portable Executable (PE: Creates Yara rules from various sections and elements of Windows PE Structure.
+- Github resources with Yara rules
+  - LOKI: Opens-source IOC scanner by Florian Roth
+    - 
+  - THOR: Latest IOC and YARA scanner by Florian Roth
+  - FENRIR: A bash script created to address issues from LOKI and THOR by Florian Roth.
+  - YAYA: A linux tool used to manage multiple YARA rule repo.
+## 
