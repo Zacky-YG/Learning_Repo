@@ -10,6 +10,8 @@ Documenting IT and cybersecurity projects.
 ## Want to learn list
 - Relearn Python (Perhaps tryhackme or some other sites) [Target Date: Once finished SOC beginner path on either platforms]
 - Relearning the fundamentals of networking.
+- Cisco SOC Analyst (CCST)
+- Splunk Fundamentals 1 (SOC focus) 
 
 ## License
 This is licensed under the **MIT License**.
