@@ -14,7 +14,7 @@
 ## Types of SOC Roles
 - SOC Analyst: L1-3. Classify Alerts -> Identify cause -> Advise on remediation
 - Incident Responder: Performs initial assessment of security breaches.
-- Threat Hunter: Proactly seeks out and investigates potential threats and vulnerabilities within an org network/system by using techniques to...
+- Threat Hunter: Proactively seeks out and investigates potential threats and vulnerabilities within an org network/system by using techniques to...
     - Detect
     - Isolate
     - Mitigate
@@ -25,11 +25,11 @@
 ## Log Management
 - Access to all logs in an environment
 ## Endpoint Detection and Response (EDR)
-- Endpoint security solution that continous monitor and collect endpoint data and rule-based automated response and analysis capabilities.
+- Endpoint security solution that continuous monitor and collect endpoint data and rule-based automated response and analysis capabilities.
 - Common EDR solutions: CarbonBlack, SentinelOne, and FireEye HX.
 - Steps:
   1. Analysis endpoint details.
-  2. Investigate endpoint information for mailicious activities.
+  2. Investigate endpoint information for malicious activities.
   3. Isolate endpoint for further investigation via containment.
   4. Identify any Indicator of Compromise (IoC): evidence indicating a security breach or malicious activity on endpoint/network.
 ## Security Orchestration Automation and Response (SOAR)
@@ -47,7 +47,7 @@
 - Overlooking VirusTotal Dates
 ## Questions
 - What are the different steps of the lifecycle for the NIST, of an incident?
-  - Preparation, Detection/Analysis, Containment / Eradicationand Recovery, Post-Event Activity
+  - Preparation, Detection/Analysis, Containment / Eradication and Recovery, Post-Event Activity
 
 # Sec 2: Cyber Kill Chain
 - Framework by Lockheed Martin (Organization)
@@ -88,8 +88,8 @@
        - Android
        - iOS
   4. Industrial Control Systems (ICS): cyber security of devices in the industrial control systems.
-## Mitgations
-- Measures and actiosn that can be taken in response to techniques.
+## Mitigations
+- Measures and actions that can be taken in response to techniques.
 
 # Sec 4: Phishing Email Analysis
 - Falls under delivery
@@ -101,17 +101,17 @@
 - Ways to determine if mail is spoof
   - Check SMTP address with domain's SPF, DKIM, DMARC, and MX records (records can be extracted using Mxtoolbox).
 - Reading Email Header
-  - Definition: header contains info about sender, receipent, and date. It also contains other components such as 'Return-Path'.
+  - Definition: header contains info about sender, recipient, and date. It also contains other components such as 'Return-Path'.
   - Notable components
     - From
     - To
     - Date
-    - Subject
-    - Return-Path: aka Repy-To. Upon replying, it will send to the address indicated in this field.
+    - Subject:
+    - Return-Path: aka Reply-To. Upon replying, it will send to the address indicated in this field.
     - Domain Key and DKIM Signatures: email signatures for authentication.
     - Message-ID: Unique Email ID
     - MIME-Version: aka Multipurpose Internet Mail Extensions; a coding standard. non-text contents converts into text and sent via SMTP (Simple Mail Transfer Protocol).
-    - Received: A list of email servers which passed through before arriving reipent's inbox.
+    - Received: A list of email servers which passed through before arriving recipient's inbox.
     - X-Spam Status: Spam score of email message.
 
 # Sec 5: Detecting Web Attacks
@@ -129,7 +129,7 @@
   - Useful resources in OWASP: https://owasp.org/projects/
 ## How Web Applications
 - HTTP is used for web apps to communicate.
-- Below is how HTTP protcol works
+- Below is how HTTP protocol works
 - ![HTTP Protocol Image goes here](https://raw.githubusercontent.com/Zacky-YG/Learning_Repo/refs/heads/main/Tryhackme/SOC%-%HTTP-Protocol-TCP-IP-Model-OSI-Model.png)
 - HTTP Status Line Summary
   - 100-199: Informational responses
@@ -140,11 +140,11 @@
 ## Detecting SQL Injection Attacks
 - An attack vector in which web application directly includes unsanitized user provided data in SQL queries; a vulnerability which SQL injection attack make use.
 - Types of SQL Injections
-  - Classic/In-band: SQL query sent and responed to on the same channel.
+  - Classic/In-band: SQL query sent and respond to on the same channel.
   - Blind/Inferential: SQL queries receive a response which cannot be seen.
   - Out of Band: SQL queries received through another channel.
  ## Detecting Cross Site Scripting (XSS) Attacks
- - XSS attacks is where mailcious code are executed via legitimate applications.
+ - XSS attacks is where malicious code are executed via legitimate applications.
  - 3 types of XSS
    - Reflected XSS (Non-persistent): XSS payload must be present in the request; Most common type of XSS.
    - Stored XSS (Persistent): XSS payload is permanently uploaded in the web app; Most dangerous type of XSS.
