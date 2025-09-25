@@ -200,4 +200,21 @@
   - THOR: Latest IOC and YARA scanner by Florian Roth
   - FENRIR: A bash script created to address issues from LOKI and THOR by Florian Roth.
   - YAYA: A linux tool used to manage multiple YARA rule repo.
-## 
+## OpenCTI
+- Open Cyber Threat Intelligence (CTI): Manages CTI through storage, analysis, visualisation and presentation of threat campaigns, malware and IOCs.
+- It uses Structured Threat Information Expression (STIX2) standards.
+  - STIX is a serialised and standardised language format used in threat intelligence exchange.
+### OpenCTI Data Model
+![OpenCTI Data Model goes here](https://raw.githubusercontent.com/Zacky-YG/Learning_Repo/refs/heads/main/Tryhackme/SOC_Lvl1/THM_-_OpenCTI_Data_Model.png)
+- Activities & Knowledge
+  - Analysis: Report and external ref.
+  - Events: Record findings.
+  - Observations: Contains technical elements, detection rules, and artefacts during a cyber attack.
+  - Threats
+  - Aresenal
+    - Malware
+    - Attack Patterns: Contains details of adversaries attack implementation to perform cyber kill chain. Additonally, there are command-line interface details which allows user to understand the investigation associated with the techniques used.
+    - Courses of Action
+    - Tools
+    - Vulnerabilities
+  - Entities
