@@ -219,3 +219,22 @@
     - Tools
     - Vulnerabilities
   - Entities
+## Malware Information Sharing Platform (MISP)
+- Open-source threat information platform.
+- Network Intrusion Detection System (NIDS) and Security Information and Event Management Systems (SIEM) can use these data as data bank.
+- MISP Terminology
+    Events: Collection of contextually linked information.
+    Attributes: Individual data points associated with an event, such as network or system indicators.
+    Objects: Custom attribute compositions.
+    Object References: Relationships between different objects.
+    Sightings: Time-specific occurrences of a given data point or attribute detected to provide more credibility.
+    Tags: Labels attached to events/attributes.
+    Taxonomies: Classification libraries are used to tag, classify and organise information.
+    Galaxies: Knowledge base items used to label events/attributes.
+    Indicators: Pieces of information that can detect suspicious or malicious cyber activity.
+- References
+  - [MISP Book](https://www.circl.lu/doc/misp/)
+  - [MISP GitHub](https://github.com/MISP/)
+  - [CIRCL MISP Training Module 1](https://www.youtube.com/watch?v=aM7czPsQyaI)
+  - [CIRCL MISP Training Module 2](https://www.youtube.com/watch?v=Jqp8CVHtNVk)
+

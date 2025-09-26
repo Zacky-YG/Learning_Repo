@@ -149,6 +149,24 @@
    - Reflected XSS (Non-persistent): XSS payload must be present in the request; Most common type of XSS.
    - Stored XSS (Persistent): XSS payload is permanently uploaded in the web app; Most dangerous type of XSS.
    - DOM based XSS: XSS payload is executed upon modification in the DOM "environment" in the victim's browser; it runs the client-side code in an "unexpected" manner. (OWASP)
-
+## Detecting Command Injection Attacks
+- Occurs when data received from user is not sanitized and passed directly to the OS shell.
+### How to Detect Command Injection Attacks
+- Examine the whole web request.
+- Look out for terminal language keywords (e.g. dir, ls, cp, mv cat etc.)
+- Identify commonly used command injection payloads.
+### How to Prevent Command Injection
+- Sanitize data received from user.
+- Limit user privileges
+- Use virtualization tech such as dockers.
+## Detecting Insecure Direct Object Reference (IDOR) Attacks
+- Insecure Direct Object Reference (IDOR) or Broken Access Control is a vulnerability caused by absence/improper use of an authorization mechanism.
+### How to Detect IDOR Attacks
+- Check all parameters.
+- Look at number of requests for the same page.
+- Identify a pattern.
+### How to Prevent IDOR
+- Limit privilege access to specific users.
+- Website should limit the amount of parameters allowed.
 
 
