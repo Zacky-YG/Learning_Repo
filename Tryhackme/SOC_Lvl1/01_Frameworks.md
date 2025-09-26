@@ -53,12 +53,13 @@
 ### What is "Threat Modelling"
   - Series of steps to improve system security.
 ### What is "Unified Kill Chain"
+![Unified Kill Chain goes here](https://raw.githubusercontent.com/Zacky-YG/Learning_Repo/refs/heads/main/Tryhackme/SOC_Lvl1/Paul_Pols'_Unified Kill Chain.png)
   - 18 Attack Phases
   - Created 2017, updated 2022.
   - meant to complement other defence framework.
   - Refer to "Paul Pols' Unified Kill Chain.png" for details on all 18 attack phases.
 ### Phase: In (Initial Foothold)
-  - Refer to "THM - Initial Foothold.png" for chart.
+![Unified Kill Chain goes here](https://raw.githubusercontent.com/Zacky-YG/Learning_Repo/refs/heads/main/Tryhackme/SOC_Lvl1/Paul_Pols'_Unified Kill Chain.png)
   1. Reconnaissance: Gather Info on target.
   2. Weaponization: Setup infrastructure for attack.
   3. Social Engineering: Used to manipulate victims into performing certain actions to aid attack.
@@ -68,7 +69,7 @@
   7. Command & Control: Execute what had been planned during Weaponization phase.
   8. Pivoting: Reach other systems within a network through most vulnerable point.
 ### Phase: Through (Network Propagation)
-  - Refer to "THM - Through.png" for chart.
+![Through.png goes here](https://raw.githubusercontent.com/Zacky-YG/Learning_Repo/refs/heads/main/Tryhackme/SOC_Lvl1/THM_-_Through.png)
   1. Pivoting: Staging site and tunnel between a victim's network. A distribution point for backdoor.
   2. Discovery: Uncover victim's network and other information such as active user accounts.
   3. Privilege Escalation: Attempt to gain more information via privileged access.
@@ -138,7 +139,7 @@
   - Cyber Denial: Prevent adversary's ability to conduct their operations.
   - Cyber Deception: Plant artifacts to mislead the adversary.
 - Engage has 5 categories in its matrix.
-- ![Engage Matrix Image goes here](https://raw.githubusercontent.com/Zacky-YG/Learning_Repo/refs/heads/main/Tryhackme/SOC_Lvl1/THM%20-%20engage-matrix.png)
+- ![Engage Matrix Image goes here](https://raw.githubusercontent.com/Zacky-YG/Learning_Repo/refs/heads/main/Tryhackme/SOC_Lvl1/THM_-_engage-matrix.png)
   - Prepare: Set of desired input.
   - Expose: Expose Adversaries when they trigger the deployed deception activities.
   - Affect: Cause negative impact to adversaries.
