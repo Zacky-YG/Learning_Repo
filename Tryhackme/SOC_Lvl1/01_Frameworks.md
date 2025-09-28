@@ -59,7 +59,7 @@
   - meant to complement other defence framework.
   - Refer to "Paul Pols' Unified Kill Chain.png" for details on all 18 attack phases.
 ### Phase: In (Initial Foothold)
-![Unified Kill Chain goes here](https://raw.githubusercontent.com/Zacky-YG/Learning_Repo/refs/heads/main/Tryhackme/SOC_Lvl1/Paul_Pols'_Unified Kill Chain.png)
+![Initial Foothold goes here](https://raw.githubusercontent.com/Zacky-YG/Learning_Repo/refs/heads/main/Tryhackme/SOC_Lvl1/THM_-_Initial_Foothold.png)
   1. Reconnaissance: Gather Info on target.
   2. Weaponization: Setup infrastructure for attack.
   3. Social Engineering: Used to manipulate victims into performing certain actions to aid attack.
