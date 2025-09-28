@@ -117,7 +117,7 @@
 # Sec 5: Detecting Web Attacks
 ## Types of attacks
 - SQL Injection
-- Cross Site Scripting
+- Cross Site Scripting (XSS)
 - Command Injection
 - IDOR
 - RFI & LFI
