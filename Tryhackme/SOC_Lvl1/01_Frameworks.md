@@ -53,7 +53,7 @@
 ### What is "Threat Modelling"
   - Series of steps to improve system security.
 ### What is "Unified Kill Chain"
-![Unified Kill Chain goes here](https://raw.githubusercontent.com/Zacky-YG/Learning_Repo/refs/heads/main/Tryhackme/SOC_Lvl1/Paul_Pols'_Unified Kill Chain.png)
+![Unified Kill Chain goes here](https://raw.githubusercontent.com/Zacky-YG/Learning_Repo/refs/heads/main/Tryhackme/SOC_Lvl1/Paul_Pols's_Unified_Kill_Chain.png)
   - 18 Attack Phases
   - Created 2017, updated 2022.
   - meant to complement other defence framework.
@@ -237,4 +237,6 @@
   - [MISP GitHub](https://github.com/MISP/)
   - [CIRCL MISP Training Module 1](https://www.youtube.com/watch?v=aM7czPsQyaI)
   - [CIRCL MISP Training Module 2](https://www.youtube.com/watch?v=Jqp8CVHtNVk)
+## Friday Overtime (Scenario Practice)
+
 

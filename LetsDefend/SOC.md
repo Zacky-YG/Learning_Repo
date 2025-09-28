@@ -168,5 +168,10 @@
 ### How to Prevent IDOR
 - Limit privilege access to specific users.
 - Website should limit the amount of parameters allowed.
-
+## Detecting RFI & LFI Attacks
+- Local File Inclusion (LFI): Vulnerability when file is included without sanitizing the data obtained from a user within the same web server.
+- Remote File Inclusion: Vulnerability occurs when a file is included without sanitizing the data received from a user. File is hosted on another server.
+### How to Detect RFI/LFI
+- Look for notations such as '/', '.', '\'.
+- Look for acronyms such as HTTP and HTTPS.
 
